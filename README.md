@@ -24,7 +24,7 @@ A consolidated collection of hands-on implementations, architectures, and experi
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/SakshamRaj1/AgenticAI.git](https://github.com/SakshamRaj1/AgenticAI.git)
+   git clone https://github.com/SakshamRaj1/AgenticAI.git
    cd AgenticAI
 
 2. Create and activate a virtual environment:
