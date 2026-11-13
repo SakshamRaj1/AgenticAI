@@ -1,6 +1,6 @@
 # Agentic AI & Retrieval-Augmented Generation (RAG) Monorepo
 
-A consolidated collection of hands-on implementations, architectures, and experiments covering **Agentic AI**, **Multi-Agent Workflows**, **Model Context Protocol (MCP)**, **Guardrails**, **LLM Gateways**, **Evaluation Pipelines**, and **Vector / Vectorless RAG** systems.
+A consolidated collection of hands-on implementations, architectures, and experiments covering **Agentic AI**, **Multi-Agent Workflows**, **Model Context Protocol (MCP)**, **Guardrails**, **LLM Gateways**, **Evaluation Pipelines**, **Guardrails** and **Vector / Vectorless RAG** systems.
 
 ---
 
@@ -8,15 +8,15 @@ A consolidated collection of hands-on implementations, architectures, and experi
 
 | Module | Description | Core Stack |
 | :--- | :--- | :--- |
-| **`deepagentsBasics/`** | Foundations of autonomous and multi-step deep agent architectures, planning loops, and tool-calling workflows. | Python, LangChain, DeepAgents |
-| **`guardrailsLangchain/`** | Input/output validation, model-based safety guardrails, hallucination mitigation, and policy enforcement for LLM pipelines. | LangChain, Groq / Gemini |
 | **`langchainnew/`** | Modern LangChain v0.3+ primitives, LCEL (LangChain Expression Language) chains, structured outputs, and memory patterns. | LangChain, LCEL, Python |
 | **`langgraphnew/`** | Stateful, cyclic, and multi-agent graph workflows featuring conditional routing, human-in-the-loop checkpoints, and state persistence. | LangGraph, LangChain |
-| **`llmEval/`** | Automated evaluation frameworks for benchmarking LLM responses, RAG faithfulness, relevance, and latency metrics. | Python, LLM Evaluators |
-| **`llmGateways/`** | Unified API routing, fallback handling, rate-limit management, and multi-provider model orchestration. | Python, LLM Gateway APIs |
 | **`mcpdemo-langgraph/`** | Integration of the **Model Context Protocol (MCP)** with LangGraph agents to connect external tools, servers, and context sources dynamically. | MCP, LangGraph, Python |
 | **`vectorRAG/`** | End-to-end semantic Retrieval-Augmented Generation pipelines covering document ingestion, chunking, embedding generation, and vector store querying. | Python, Vector Stores, Embeddings |
 | **`vectorlessRAG/`** | Tree-based and reasoning-driven retrieval architectures (such as PageIndex) that navigate structured documents without relying on vector embeddings. | Python, Groq, PageIndex |
+| **`deepagentsBasics/`** | Foundations of autonomous and multi-step deep agent architectures, planning loops, and tool-calling workflows. | Python, LangChain, DeepAgents |
+| **`llmEval/`** | Automated evaluation frameworks for benchmarking LLM responses, RAG faithfulness, relevance, and latency metrics. | Python, LLM Evaluators |
+| **`llmGateways/`** | Unified API routing, fallback handling, rate-limit management, and multi-provider model orchestration. | Python, LLM Gateway APIs |
+| **`guardrailsLangchain/`** | Input/output validation, model-based safety guardrails, hallucination mitigation, and policy enforcement for LLM pipelines. | LangChain, Groq / Gemini |
 
 ---
 
@@ -58,6 +58,17 @@ GOOGLE_API_KEY="your_google_gemini_api_key"
 TAVILY_API_KEY="your_tavily_api_key"
 LANGCHAIN_API_KEY="your_langsmith_api_key"
 LANGCHAIN_TRACING_V2="true"
+
+GOOGLE_API_KEY = "your_api_key_gemini"
+GROQ_API_KEY = "your_api_key_groq"
+OPENAI_API_KEY = "your_api_key_openai"
+TAVILY_API_KEY = "your_api_key_tavily"
+HF_TOKEN = "your_api_key_hf"
+PAGEINDEX_API_KEY = "your_api_key_pageindex"
+LANGSMITH_API_KEY = "your_api_key_langsmith"
+OPENROUTER_API_KEY = "your_api_key_openrouter"
+NVIDIA_API_KEY = "your_api_key_nvidia"
+
 ```
 
 ### Key Concepts Covered
