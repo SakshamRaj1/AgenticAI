@@ -33,8 +33,8 @@ Bash
 python -m venv .venv
 # Windows (Git Bash / PowerShell)
 source .venv/Scripts/activate
-
-
+```
+```
 # Linux / macOS
 source .venv/bin/activate
 Install dependencies:
@@ -46,13 +46,12 @@ Navigate into the specific sub-project folder you want to run and install its re
 Bash
 cd langgraphnew
 pip install -r requirements.txt
-Configure environment variables:
-Each sub-project loads its own .env file locally (ignored by Git). Create a .env file inside the sub-project directory you are running and add the required API keys:
 ```
 
 4. Configure environment variables:
+   Configure environment variables: Each sub-project loads its own .env file locally (ignored by Git). Create a .env file inside the sub-project directory you are running and add the required API keys:
+
 ```
-Code snippet
 GROQ_API_KEY="your_groq_api_key"
 GOOGLE_API_KEY="your_google_gemini_api_key"
 TAVILY_API_KEY="your_tavily_api_key"
@@ -67,7 +66,6 @@ PAGEINDEX_API_KEY = "your_api_key_pageindex"
 LANGSMITH_API_KEY = "your_api_key_langsmith"
 OPENROUTER_API_KEY = "your_api_key_openrouter"
 NVIDIA_API_KEY = "your_api_key_nvidia"
-
 ```
 
 ### Key Concepts Covered
