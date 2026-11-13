@@ -27,14 +27,14 @@ A consolidated collection of hands-on implementations, architectures, and experi
    git clone [https://github.com/SakshamRaj1/AgenticAI.git](https://github.com/SakshamRaj1/AgenticAI.git)
    cd AgenticAI
 
-   Create and activate a virtual environment:
-
 2. Create and activate a virtual environment:
 ```
 Bash
 python -m venv .venv
 # Windows (Git Bash / PowerShell)
 source .venv/Scripts/activate
+
+
 # Linux / macOS
 source .venv/bin/activate
 Install dependencies:
@@ -58,7 +58,6 @@ GOOGLE_API_KEY="your_google_gemini_api_key"
 TAVILY_API_KEY="your_tavily_api_key"
 LANGCHAIN_API_KEY="your_langsmith_api_key"
 LANGCHAIN_TRACING_V2="true"
-
 GOOGLE_API_KEY = "your_api_key_gemini"
 GROQ_API_KEY = "your_api_key_groq"
 OPENAI_API_KEY = "your_api_key_openai"
