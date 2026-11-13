@@ -1,0 +1,11 @@
+ipykernel
+langsmith
+python-dotenv
+langchain
+langchain_core
+langchain_community
+typing_extensions
+langchain_google_genai
+bs4
+tiktoken
+pandas

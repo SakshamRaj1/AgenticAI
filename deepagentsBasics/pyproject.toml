@@ -1,0 +1,25 @@
+[project]
+name = "deepagentsbasics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SAKSHAM RAJ", email = "139163750+SakshamRaj1@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "deepagents>=0.7.37",
+    "ipykernel>=7.4.0",
+    "langchain>=1.5.0",
+    "langchain-groq>=1.1.3",
+    "langgraph>=1.2.21",
+    "python-dotenv>=1.2.4",
+    "tavily>=1.1.0",
+]
+
+[project.scripts]
+deepagentsbasics = "deepagentsbasics:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

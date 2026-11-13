@@ -1,0 +1,16 @@
+# Environment variables (blocks .env in root and ALL subfolders)
+.env
+.env.*
+*.env
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
