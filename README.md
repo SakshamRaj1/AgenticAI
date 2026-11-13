@@ -77,8 +77,7 @@ NVIDIA_API_KEY = "your_api_key_nvidia"
 
 - Production Reliability: Implementing guardrails, unified LLM gateways, and systematic evaluation loops before deployment.
 
-Author
-Saksham Raj
+Author: Saksham Raj
 
 GitHub: @SakshamRaj1
 
