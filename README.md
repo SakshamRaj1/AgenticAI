@@ -30,7 +30,8 @@ A consolidated collection of hands-on implementations, architectures, and experi
 2. Create and activate a virtual environment:
 ```
 Bash
-python -m venv .venv
+uv init
+uv venv
 # Windows (Git Bash / PowerShell)
 source .venv/Scripts/activate
 ```
@@ -45,7 +46,7 @@ Navigate into the specific sub-project folder you want to run and install its re
 ```
 Bash
 cd langgraphnew
-pip install -r requirements.txt
+uv add -r requirements.txt
 ```
 
 4. Configure environment variables:
