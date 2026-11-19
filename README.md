@@ -80,10 +80,8 @@ NVIDIA_API_KEY = "your_api_key_nvidia"
 
 - Production Reliability: Implementing guardrails, unified LLM gateways, and systematic evaluation loops before deployment.
 
-Author: Saksham Raj
-
-GitHub: @SakshamRaj1
-
+Author: Saksham Raj (@SakshamRaj1)
+Learnt from: Krish Naik Sir
 
 ### Push `README.md` to GitHub
 Run these commands in Git Bash from your main repository folder:
