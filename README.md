@@ -32,6 +32,8 @@ A consolidated collection of hands-on implementations, architectures, and experi
 Bash
 uv init
 uv venv
+```
+```
 # Windows (Git Bash / PowerShell)
 source .venv/Scripts/activate
 ```
