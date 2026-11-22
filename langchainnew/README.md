@@ -21,6 +21,7 @@
 
 
 Initialise the project
+
 ```uv init```
 
 Install the required dependencies
