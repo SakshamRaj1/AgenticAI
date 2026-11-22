@@ -9,7 +9,7 @@ LangChain serves as a generic interface for nearly any LLM, providing a centrali
 ---
 
 - **Models & Prompts**: Provides unified interfaces to swap between LLMs (such as OpenAI, Google, AWS, and open-source models) along with prompt templates and output parsers.
-- **Chains & Workflows**: Connects sequences of steps—such as retrieving data, prompting a model, and formatting output—using composable syntax like LangChain Expression Language (LCEL).
+- **Chains & Workflows**: Connects sequences of steps-such as retrieving data, prompting a model, and formatting output-using composable syntax like LangChain Expression Language (LCEL).
 - **Retrieval (RAG)**: Connects document loaders, text splitters, and vector databases so models can answer questions using private or real-time data.
 - **Agents & Memory**: Enables models to use external tools or APIs, maintain conversation history, and run stateful workflows via LangGraph.
 - **Observability & Deployment**: Pairs with LangSmith for tracing, testing, evaluation, and monitoring across the agent development lifecycle.
@@ -22,7 +22,7 @@ LangChain serves as a generic interface for nearly any LLM, providing a centrali
 
 #### Similar Frameworks and Alternatives
 
-Because LangChain is a specific software framework rather than a standalone word, it does not have exact lexical synonyms. In AI development, developers often compare it with similar LLM orchestration and agent frameworks—such as **LlamaIndex (especially for data indexing and RAG), Semantic Kernel, Haystack, or custom SDKs** built directly on model APIs.
+Because LangChain is a specific software framework rather than a standalone word, it does not have exact lexical synonyms. In AI development, developers often compare it with similar LLM orchestration and agent frameworks-such as **LlamaIndex (especially for data indexing and RAG), Semantic Kernel, Haystack, or custom SDKs** built directly on model APIs.
 
 ### Table of Contents
 ---
