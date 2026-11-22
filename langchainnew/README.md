@@ -1,4 +1,5 @@
 ## Langchain
+---
 
 LangChain is an open source orchestration framework for application development using large language models (LLMs). Available in both Python- and Javascript-based libraries, LangChain’s tools and APIs simplify the process of building LLM-driven applications like chatbots and AI agents. 
 
@@ -6,6 +7,7 @@ LangChain serves as a generic interface for nearly any LLM, providing a centrali
 
 
 #### Key Components and Ecosystem
+---
 
 - **Models & Prompts**: Provides unified interfaces to swap between LLMs (such as OpenAI, Google, AWS, and open-source models) along with prompt templates and output parsers.
 - **Chains & Workflows**: Connects sequences of steps—such as retrieving data, prompting a model, and formatting output—using composable syntax like LangChain Expression Language (LCEL).
@@ -24,6 +26,7 @@ LangChain serves as a generic interface for nearly any LLM, providing a centrali
 Because LangChain is a specific software framework rather than a standalone word, it does not have exact lexical synonyms. In AI development, developers often compare it with similar LLM orchestration and agent frameworks—such as **LlamaIndex (especially for data indexing and RAG), Semantic Kernel, Haystack, or custom SDKs** built directly on model APIs.
 
 ### Table of Contents
+---
 
 | S.No. | Topic |
 |---|---|
@@ -45,6 +48,7 @@ Because LangChain is a specific software framework rather than a standalone word
 | 15. | Middleware (Built-in) - Human in the Loop|
 
 ### Installation
+---
 
 Initialise the project
 
