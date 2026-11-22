@@ -43,8 +43,8 @@ Because LangChain is a specific software framework rather than a standalone word
 | 11. | Structured Output - TypedDict |
 | 12. | Structured Output - Dataclass |
 | 13. | Middleware and uses |
-| 14. | Middleware (Built-in) - Summarization Middleware|
-| 15. | Middleware (Built-in) - Human in the Loop|
+| 14. | Middleware (Built-in) - Summarization Middleware (length, token, fraction) |
+| 15. | Middleware (Built-in) - Human in the Loop |
 
 ### Installation
 ---
