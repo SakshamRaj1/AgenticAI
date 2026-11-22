@@ -61,16 +61,16 @@ Create a Virtual Environment
 uv venv
 ```
 
-Install the required dependencies
-
-```
-uv add langchain langchain-community langchain-openai langchain-groq langchain-google-genai python-dotenv
-```
-
 Activate the envirenment
 
 ```
 .venv\Scripts\activate
+```
+
+Install the required dependencies
+
+```
+uv add langchain langchain-community langchain-openai langchain-groq langchain-google-genai python-dotenv
 ```
 
 Install the requirements
