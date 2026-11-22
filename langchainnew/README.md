@@ -44,6 +44,7 @@ Because LangChain is a specific software framework rather than a standalone word
 | 14. | Middleware (Built-in) - Summarization Middleware|
 | 15. | Middleware (Built-in) - Human in the Loop|
 
+### Installation
 
 Initialise the project
 
