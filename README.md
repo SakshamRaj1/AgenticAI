@@ -1,4 +1,4 @@
- Agentic AI & Retrieval-Augmented Generation (RAG) Monorepo
+# Agentic AI & Retrieval-Augmented Generation (RAG) Monorepo
 
 A consolidated collection of hands-on implementations, architectures, and experiments covering **Agentic AI**, **Multi-Agent Workflows**, **Model Context Protocol (MCP)**, **Guardrails**, **LLM Gateways**, **Evaluation Pipelines**, **Guardrails** and **Vector / Vectorless RAG** systems.
 
