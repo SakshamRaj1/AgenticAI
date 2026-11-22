@@ -55,16 +55,16 @@ Initialise the project
 uv init
 ```
 
-Install the required dependencies
-
-```
-uv add langchain langchain-openai langchain-community langchain-google-genai google-generativeai python-dotenv langchain-core langchain-experimental google-genai faiss-cpu tiktoken faiss-cpu rank-bm25 ctransformers
-```
-
 Create a Virtual Environment
 
 ```
 uv venv
+```
+
+Install the required dependencies
+
+```
+uv add langchain langchain-community langchain-openai langchain-groq langchain-google-genai python-dotenv
 ```
 
 Activate the envirenment
