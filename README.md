@@ -14,9 +14,9 @@ A consolidated collection of hands-on implementations, architectures, and experi
 | **`vectorRAG/`** | End-to-end semantic Retrieval-Augmented Generation pipelines covering document ingestion, chunking, embedding generation, and vector store querying. | Python, Vector Stores, Embeddings |
 | **`vectorlessRAG/`** | Tree-based and reasoning-driven retrieval architectures (such as PageIndex) that navigate structured documents without relying on vector embeddings. | Python, Groq, PageIndex |
 | **`deepagentsBasics/`** | Foundations of autonomous and multi-step deep agent architectures, planning loops, and tool-calling workflows. | Python, LangChain, DeepAgents |
+| **`guardrailsLangchain/`** | Input/output validation, model-based safety guardrails, hallucination mitigation, and policy enforcement for LLM pipelines. | LangChain, Groq / Gemini |
 | **`llmEval/`** | Automated evaluation frameworks for benchmarking LLM responses, RAG faithfulness, relevance, and latency metrics. | Python, LLM Evaluators |
 | **`llmGateways/`** | Unified API routing, fallback handling, rate-limit management, and multi-provider model orchestration. | Python, LLM Gateway APIs |
-| **`guardrailsLangchain/`** | Input/output validation, model-based safety guardrails, hallucination mitigation, and policy enforcement for LLM pipelines. | LangChain, Groq / Gemini |
 
 ---
 
