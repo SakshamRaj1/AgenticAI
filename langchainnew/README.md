@@ -21,7 +21,7 @@
 
 
 Initialise the project
-`uv init`
+```uv init```
 
 Install the required dependencies
 ```uv add langchain langchain-openai langchain-community langchain-google-genai google-generativeai python-dotenv langchain-core langchain-experimental google-genai faiss-cpu tiktoken faiss-cpu rank-bm25 ctransformers```
