@@ -13,6 +13,18 @@
 | **Enhanced RAG Pipeline Features** | Configurable Retrieval | `rag_advanced()` — Adds `top_k` controls, minimum score filtering, and structured context formatting |
 | **Advanced RAG Pipeline** | Production Features | `AdvancedRAGPipeline` — Supports streaming responses, source citations, query history, and summarization |
 
+| S.No. | Topic | Description |
+| --- | --- | --- |
+| 1 | Setup & Dependencies | Imports required libraries and modules, including `DirectoryLoader`, `PyPDFLoader`, `PyMuPDFLoader`, `RecursiveCharacterTextSplitter`, and `Path`. |
+| 2 | Data Ingestion Pipeline to VectorStore – Data Ingestion | `process_all_pdfs()` recursively loads PDF files and extracts document content along with page metadata. |
+| 3 | Data Ingestion Pipeline to VectorStore – Chunking | `split_documents()` splits loaded documents into smaller chunks using configurable chunk size and overlap. |
+| 4 | Data Ingestion Pipeline to VectorStore – Embedding Generation | `EmbeddingManager` generates dense vector embeddings using the SentenceTransformer model (`all-MiniLM-L6-v2`). |
+| 5 | Data Ingestion Pipeline to VectorStore – VectorStore DB | `VectorStore` stores and persists document chunks and their embeddings in a ChromaDB vector database. |
+| 6 | RAG Retrieval Pipeline from VectorStore | `RAGRetriever` encodes user queries and retrieves the top-matching document chunks based on similarity thresholds. |
+| 7 | Data Retrieval Pipeline – VectorDB to LLM Output Generation | `GroqLLM` initializes and configures the Groq API using `ChatGroq` with the `gemma2-9b-it` model. |
+| 8 | Integration of VectorDB Context Pipeline with LLM Output – Basic RAG Workflow | `rag_simple()` combines retrieved document context with the LLM to generate answers. |
+| 9 | Enhanced RAG Pipeline Features – Configurable Retrieval | `rag_advanced()` provides configurable `top_k` retrieval, minimum score filtering, and structured context formatting. |
+| 10 | Advanced RAG Pipeline – Production Features | `AdvancedRAGPipeline` supports streaming responses, source citations, query history, and summarization. |
 
 ### Initialise the project
 ```
