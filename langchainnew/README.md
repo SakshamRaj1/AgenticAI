@@ -27,24 +27,24 @@ Because LangChain is a specific software framework rather than a standalone word
 ### Table of Contents
 ---
 
-| S.No. | Topic |
-|---|---|
-| 1 | Agent Creation using `create_agent` |
-| 2 | Model Integration using OpenAI, Gemini, and Groq API Keys |
-| 3 | `ChatOpenAI`, `ChatGoogleGenerativeAI`, `ChatGroq` |
-| 4 | Streaming |
-| 5 | Batching |
-| 6 | Tools |
-| 7 | Tools Execution Loop |
-| 8 | Messages - Text Prompt |
-| 9 | Message Prompt - System Prompt, Human Prompt, AI Prompt, Tool Prompt |
-| 10. | Conversation History |
-| 11. | Structured Output - Pydantic (Message output alongside parsed structure, Nested Structure) |
-| 11. | Structured Output - TypedDict |
-| 12. | Structured Output - Dataclass |
-| 13. | Middleware and uses |
-| 14. | Middleware (Built-in) - Summarization Middleware (length, token, fraction) |
-| 15. | Middleware (Built-in) - Human in the Loop |
+| S.No. | Topic | Description |
+| --- | --- | --- |
+| 1 | Agent Creation using `create_agent` | Create and configure AI agents. |
+| 2 | Model Integration (OpenAI, Gemini, Groq) | Connect LLM providers using API keys. |
+| 3 | `ChatOpenAI`, `ChatGoogleGenerativeAI`, `ChatGroq` | Initialize and configure chat models. |
+| 4 | Streaming | Generate responses token by token. |
+| 5 | Batching | Process multiple inputs efficiently. |
+| 6 | Tools | Create and integrate custom and built-in tools. |
+| 7 | Tools Execution Loop | Understand tool calling and execution flow. |
+| 8 | Messages - Text Prompt | Send text prompts to LLMs. |
+| 9 | Message Prompts | Understand System, Human, AI, and Tool messages. |
+| 10 | Conversation History | Maintain context across conversations. |
+| 11 | Structured Output - Pydantic | Generate validated and nested structured outputs. |
+| 12 | Structured Output - TypedDict | Define structured outputs using TypedDict. |
+| 13 | Structured Output - Dataclass | Generate structured outputs using dataclasses. |
+| 14 | Middleware and Uses | Customize agent behavior using middleware. |
+| 15 | Summarization Middleware | Summarize conversations using length, token, and fraction thresholds. |
+| 16 | Human in the Loop | Add human approval and intervention to workflows. |
 
 ### Installation
 ---
