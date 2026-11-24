@@ -1,3 +1,5 @@
+# Vector RAG
+
 ## 1. What is RAG?
 
 Retrieval-Augmented Generation (RAG) is an AI architecture that combines information retrieval with Large Language Models (LLMs).
