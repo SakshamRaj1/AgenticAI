@@ -12,6 +12,11 @@
 | 8 | Integration of VectorDB Context Pipeline with LLM Output – Basic RAG Workflow | `rag_simple()` combines retrieved document context with the LLM to generate answers. |
 | 9 | Enhanced RAG Pipeline Features – Configurable Retrieval | `rag_advanced()` provides configurable `top_k` retrieval, minimum score filtering, and structured context formatting. |
 | 10 | Advanced RAG Pipeline – Production Features | `AdvancedRAGPipeline` supports streaming responses, source citations, query history, and summarization. |
+| 11 | RAG Application Using Typesense – Setup & Client Initialization | Initializes the Typesense client and configures the connection to the Typesense server. |
+| 12 | RAG Application Using Typesense – Collection Schema & Data Ingestion | Defines the Typesense collection schema and ingests documents into the collection. |
+| 13 | RAG Application Using Typesense – Keyword, Filtered & Typo-Tolerant Search | Implements keyword-based search, filtered search, and typo-tolerant search using Typesense. |
+| 14 | RAG Application Using Typesense – LangChain + Typesense Vector Store Integration | Integrates Typesense with LangChain to store and manage document embeddings for vector-based retrieval. |
+| 15 | RAG Application Using Typesense – Similarity Search & Retriever Setup | Configures similarity search and retrievers to fetch relevant document chunks based on user queries. |
 
 ### Initialise the project
 ```
