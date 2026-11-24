@@ -224,7 +224,7 @@ The RAG system works as follows:
 In summary: Data ingestion prepares and indexes knowledge, while data retrieval searches that knowledge and provides relevant context to an LLM for answer generation.
 
 
-### Table of Contents
+## Table of Contents
 
 | S.No. | Topic | Description |
 | --- | --- | --- |
